@@ -1,0 +1,18 @@
+body{
+    background-color:hsla(187, 50%, 45%, 0.575);
+    margin: 0%; 
+    padding: 0%;
+}
+
+.inicial{
+    background-color: rgb(202, 201, 201);
+    width: 25%;
+    height: 25%
+}
+
+#imagemInicial{
+    background-color: #456;
+    width: 10%
+    padding: 5%
+
+}
