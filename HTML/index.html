@@ -1,23 +1,23 @@
  <!DOCTYPE html>
  <html lang="pt-BR">
     <head>
-        <!--Cabeçalho do Site = Orientações-->>
+        <!--Cabeçalho do Site = Orientações-->
         <meta charset="UTF-8"/>
         <link rel="stylesheet" type="text/css" href="../css/estilo.css"/>
 
-        <title>Página Inicial</title> <!--Titulo da ABA-->
+        <title>AutoHaus</title> <!--Titulo da ABA-->
     </head>
     <body>
-        <!--Corpo do Site = Conteúdo -->>
+        <!--Corpo do Site = Conteúdo -->
         <header id="cabecalho">
          
-            <!-- Menu de Navegação -->>
+            <!-- Menu de Navegação -->
             <nav>
                 <ul>
-                    <li>Pagina Inicial</li>
-                    <li>História</li>
-                    <li>Catálogo</li>
-                    <li>Fechamento</li>
+                    <a href="#boasVindas"><li>Pagina Inicial</li></a>
+                    <a href="historia"><li>História</li></a>
+                    <a href="catalogo"><li>Catá+logo</li></a>
+                    <a href="fechamento"><li>Fechamento</li></a>
                 </ul>
             </nav>
         </header>     
@@ -25,10 +25,11 @@
             <h1>Bem-Vindo!</h1>
 
         </section>
-        <section id="imagemInicial" class="inicial"> 
-            <img src="../Imagens/bmw-m-series-x6-m-gallery-image-impressionen-03_890.jpg" alt="Imagem da BMW X6" />
-            <img src="../Imagens/Audi-RS6-Avant__4_-removebg-preview.png" alt="Imagem da Audi RS6 Avant" />
-            <img src="../Imagens/e0c209bb9bd47857c75c76a9f535b90b-removebg-preview.png" alt="Imagem da Audi RS7"/>
+        <section id="imagemInicial" class="templateInicial"> 
+            <img class="ti" src="../Imagens/x6 m.png" alt="Imagem da BMW X6" />
+            <img class="ti" src="../Imagens/rs6.png" alt="Imagem da Audi RS6 Avant" />
+            <img class="ti" src="../Imagens/rs7.png" alt="Imagem da Audi RS7"/>
+            <img class="ti" src="../Imagens/rs8.png" alt="Imagem da Audi RS8"/>
 
 
         </section>
@@ -45,60 +46,69 @@
             </p>
 
         </section>
-        <section id="catalogo" class="inicial"> 
-            <article>
+        <section id="catalogo" class="galeria"> 
+            <article id="gd1">
                 <h3>BMW Z4</h3>
-                <img src="../Imagens/2_ms401_segredos3.jpg" alt="BMW Z4"/>
-                <p>R$ 480.000,00</p>
-                <h3></h3>               
+                <img class="gd" src="../Imagens/z4.png" alt="BMW Z4"/>
+                <p class="dinheiro">R$ 480.000,00</p>
+                <a href="" class="botao">comprar</a>
+                          
             </article>
 
-            <article>
+            <article id="gd2">
                 <h3>AUDI R8</h3>
-                <img src="../Imagens/2023-audi-r8-v10-gt-rwd.jpg"/>
-                <P>R$ 500.000,00</P>           
+                <img class="gd" src="../Imagens/r8.png"/>
+                <P class="dinheiro">R$ 500.000,00</P>  
+                <a href="" class="botao">comprar</a>      
             </article>
 
-            <article>
+            <article id="gd3">
                 <h3>AUDI A4 avant</h3>
-                <img src="../Imagens/audi_a4-avant_2020_1_28012020_21883_1280_960.jpg"/>
-                <P>R$ 80.000,00</P>           
+                <img class="gd" src="../Imagens/a4.png"/>
+                <P class="dinheiro">R$ 80.000,00</P>  
+                <a href="" class="botao">comprar</a>       
             </article>
 
-            <article>
+            <article id="gd4">
                 <h3>AUDI RS5</h3>
-                <img src="../Imagens/Audi-RS5-Sportback-2023 (10).jpg"/>
-                <P>R$ 680.000,00</P>           
+                <img class="gd" src="../Imagens/rs5.png"/>
+                <P class="dinheiro">R$ 680.000,00</P>  
+                <a href="" class="botao">comprar</a>       
             </article>
 
-            <article>
+            <article id="gd5">
                 <h3>AUDI tt</h3>
-                <img src="../Imagens/audi-tt-25-anos.webp"/>
-                <P>R$ 334.000,00</P>           
+                <img class="gd" src="../Imagens/image-removebg-preview (7).png"/>
+                <P class="dinheiro">R$ 334.000,00</P>    
+                <a href="" class="botao">comprar</a>     
             </article>
 
-            <article>
+            <article id="gd6">
                 <h3>BMW I8</h3>
-                <img src="../Imagens/bmw-i8-roadster-49-021200b60d650911.webp"/>
-                <P>R$ 650.000,00</P>           
+                <img class="gd" src="../Imagens/i8.png"/>
+                <P class="dinheiro">R$ 650.000,00</P>    
+                <a href="" class="botao">comprar</a>     
             </article>
 
-            <article>
+            <article id="gd7">
                 <h3>BMW M4</h3>
-                <img src="../Imagens/BMW-M4-Competition (38).jpg" alt="Imagem da BMW m4"/>
-                <P>R$ 370.000,00</P>           
+                <img class="gd" src="../Imagens/image-removebg-preview (5).png" alt="Imagem da BMW m4"/>
+                <P class="dinheiro">R$ 370.000,00</P>   
+                <a href="" class="botao">comprar</a>      
             </article>
 
-            <article>
+            <article id="gd8">
                 <h3>BMW X7</h3>
-                <img src="../Imagens/BMW-X7-Dark-Shadow_1.jpg" alt="Imagem da BMW X7"/>
-                <P>R$ 1.200.000,00</P>           
+                <img class="gd" src="../Imagens/x7.png" alt="Imagem da BMW X7"/>
+                <P class="dinheiro">R$ 1.200.000,00</P>    
+                <a href="" class="botao">comprar</a>   
             </article>
 
-            <article>
+            <article id="gd9">
                 <h3>BMW SERIES 3</h3>
-                <img src="../Imagens/novo-bmw-serie-3-2024-na-cor-vermelho-melbourne.jpg" alt="Imagem da BMW SERIES 3"/>
-                <P>R$ 320.000,00</P>           
+                <img class="gd" src="../Imagens/series 3.png" alt="Imagem da BMW SERIES 3"/>
+                <P class="dinheiro">R$ 320.000,00</P>  
+                <a href="" class="botao">comprar</a>      
             </article>
 
         </section> 
@@ -107,7 +117,7 @@
             <p> 11 99999-9999</p>    
         </section>     
         <footer id="rodape">
-            <h5> Desenvolvido por Seu Nome</h5>
+            <h5> Desenvolvido por Daniel Poggiato Zambotti Lima</h5>
         </footer>
 
     </body>    

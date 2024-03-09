@@ -1,18 +1,225 @@
 body{
-    background-color:hsla(187, 50%, 45%, 0.575);
+    background-color:hsla(195, 5%, 17%, 0.829);
     margin: 0%; 
     padding: 0%;
 }
 
-.inicial{
-    background-color: rgb(202, 201, 201);
-    width: 25%;
-    height: 25%
+#boasvindas{
+    width: 100%;
+    border: 2px solid #788;
+    text-align: center;
+    font-size: 30% ;
+    background-color: #788;
 }
 
 #imagemInicial{
-    background-color: #456;
-    width: 10%
-    padding: 5%
+    background-color:dimgray;
+    width: 100%;
+    padding-left: 1%;
 
+}
+
+.galeria, templateInicial{
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: auto ;
+    grid-gap: 1%;
+    
+}
+
+#gd1{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    border: 2px solid #788;
+}
+
+#gd2{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    border: 2px solid #788;
+}
+
+#gd3{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    border: 2px solid #788;
+}
+
+#gd4{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    border: 2px solid #788;
+}
+
+#gd5{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    border: 2px solid #788;
+}
+
+#gd6{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    border: 2px solid #788;
+}
+
+#gd7{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    border: 2px solid #788;
+}
+
+#gd8{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    border: 2px solid #788;
+}
+
+#gd9{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    border: 2px solid #788;
+}
+
+.gd{
+    width: 80%; /*Largura*/
+    height: 50%; /*Altura*/
+    object-fit: cover;
+}
+
+h3{
+    font-family:'Gill Sans';
+    font-size: 30px;
+    text-align: center;
+    background-color:dimgray;
+    margin-top: -1%;
+}
+
+.dinheiro{
+    font-family: Impact;
+    font-size: 40px;
+    text-align: center;
+    background-color: dimgrey;
+    margin-top: -0.7%;
+    
+}
+
+.botao{
+    text-decoration: none;
+    font-family: 'Gill Sans';
+    font-size: 30px;
+    text-align: center;
+    border: 2px solid #000;
+    padding: 5% 10% 5% 10%;
+    background-color: rgb(63, 63, 63);  
+    font-weight: bold;
+    color:#000;
+    border-radius: 12%;
+    margin-left: 25%;
+
+}
+
+.ti{
+    width:  23%;
+    height: 23%;
+    margin: 0%;
+}
+
+li{
+    list-style: none;
+    font-weight: bold;
+    display: inline;
+    padding: 1% 8% 1% 8%;
+    border: 2px solid #000;
+    background-color:gray;
+    font-size: 21px;
+   
+}
+
+ul{
+    display: inline;
+    margin-top: -3%;
+    margin-left: 1.7%;
+}    
+
+nav{
+    margin-top: -3.5%;
+    height: 10%;
+    margin-bottom: 2%;
+}
+
+header{
+    margin-top: 5%;
+    height: 10%;
+}
+
+#historia{
+    height: 30%;
+    
+    padding: 5%;
+    font-size: 30px;
+    text-align: justify;
+    background-color: dimgray;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#fechamento, #rodape{
+    height: 10%;
+    text-align: center;
+    margin-top: 1%;
+    font-size: px;
+    background-color: dimgray;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+@media screen and (max-width: 767px){
+  .botao{
+    text-decoration:none;
+    font-family: 'Gill Sans';
+    font-size: 15px;
+    text-align: center;
+    border: 2px solid azure;
+    padding: 5% 10% 5% 10%;
+    background-color: black;
+    font-weight: bold;
+    color:azure;
+    border-radius: 12%;
+    margin-left: 25%;
+    padding-left: auto;
+  }
+  .dinheiro{
+    font-family: 'gill Sans';
+    font-size: 15px;
+    text-align: center;
+    border: 2px solid #000;
+    font-weight: bold;
+    background-color: #999 
+  }
+
+  body{
+    font-size: 10px;
+  }
 }
